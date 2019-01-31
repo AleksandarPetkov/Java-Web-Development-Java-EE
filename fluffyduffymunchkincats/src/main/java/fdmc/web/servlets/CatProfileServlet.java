@@ -17,8 +17,7 @@ public class CatProfileServlet extends HttpServlet {
 
     private static final String CAT_PROFILE_HTML_FILE = "D:\\SoftUni\\Java-Web-Development-Java-EE\\fluffyduffymunchkincats\\src\\main\\resources\\view\\cat-profile.html";
 
-    private static final String NON_EXIST_CAT_FILE = "D:\\SoftUni\\Java-Web-Development-Java-EE\\fluffyduffymunchkincats\\src\\main\\resources\\view\\non-exist-cat.html";
-
+    private static final String NON_EXIST_CAT_FILE = "D:\\SoftUni\\Java-Web-Development-Java-EE\\fluffyduffymunchkincats\\src\\main\\resources\\view\\non-exist.html";
 
     private final HtmlReader htmlReader;
 

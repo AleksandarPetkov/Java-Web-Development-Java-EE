@@ -1,5 +1,4 @@
 package fdmc.web.servlets;
-
 import fdmc.domain.entities.Cat;
 import fdmc.util.HtmlReader;
 
@@ -40,6 +39,7 @@ public class CatCreateServlet extends HttpServlet {
         if (req.getSession().getAttribute("cats") == null){
             req.getSession().setAttribute("cats", new HashMap<>());
         }
+
 
         ((Map<String, Cat>)req.getSession().getAttribute("cats")).putIfAbsent(cat.getName(), cat);
         resp.sendRedirect(String.format("/cats/profile?catName=%s",cat.getName()));
