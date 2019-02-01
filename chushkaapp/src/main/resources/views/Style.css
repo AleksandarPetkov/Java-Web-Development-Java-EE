@@ -1,0 +1,22 @@
+header{
+    background-color: darkgray;
+    font-family: 'Helvetica';
+    padding: 80px 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+body header button {
+    background-color: cornflowerblue ; /* Green */
+    border: none;
+    color: white;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+}
+
+body header button:hover{
+    background: lightskyblue ;
+}
