@@ -5,28 +5,12 @@
     <title>Chushka</title>
     <!--<link rel="stylesheet" href="./Style.css">-->
     <style type="text/css" media="screen">
-
         header{
             background-color: darkgray;
             font-family: 'Helvetica';
             padding: 80px 100px;
             margin-left: 100px;
             margin-right: 100px;
-        }
-
-        .buttonCreate {
-            background-color: cornflowerblue ; /* Green */
-            border: none;
-            color: white;
-            padding: 7px 16px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 13px;
-        }
-
-        .buttonCreate:hover{
-            background: lightskyblue ;
         }
 
         input[type=text], select {
@@ -53,21 +37,27 @@
         input[type=submit]:hover {
             background-color: lightskyblue;
         }
-
     </style>
+
 </head>
 <body>
 <header>
     <center>
-        <h1>Welcome to Chushka application</h1>
+        <h1>Create Product</h1>
         <hr>
-        <p>Check our products below!</p>
-        <ul>
-            <li>Test 1</li>
-            <li>Test 2</li>
-            <li>Test 3</li>
-        </ul>
-        <a href="/products/create" class="buttonCreate">Create Product</a>
+        <form action="/products/create" method="post">
+            <label for="nameInput">Name</label>
+            <input type="text" id="nameInput" name="name" placeholder="Product name...">
+
+            <label for="descrInput">Description</label>
+            <input type="text" id="descrInput" name="description" placeholder="Product Description...">
+
+            <label for="typeInput">Type:</label>
+            <select id="typeInput" name="type">
+               [TypeOptions]
+            </select>
+
+            <input type="submit" value="Submit">
         </form>
     </center>
 </header>

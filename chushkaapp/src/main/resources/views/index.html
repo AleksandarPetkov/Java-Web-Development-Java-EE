@@ -3,7 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <title>Chushka</title>
-    <link rel="stylesheet" href="./Style.css">
+    <!--<link rel="stylesheet" href="./Style.css">-->
+    <style type="text/css" media="screen">
+
+        header{
+            background-color: darkgray;
+            font-family: 'Helvetica';
+            padding: 80px 100px;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        .buttonCreate {
+            background-color: cornflowerblue ; /* Green */
+            border: none;
+            color: white;
+            padding: 7px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 13px;
+        }
+
+        .buttonCreate:hover{
+            background: lightskyblue ;
+        }
+
+        input[type=text], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 50%;
+            background-color: cornflowerblue;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: lightskyblue;
+        }
+
+    </style>
 </head>
 <body>
 <header>
@@ -11,7 +62,12 @@
         <h1>Welcome to Chushka application</h1>
         <hr>
         <p>Check our products below!</p>
-        <button>Create Product</button>
+        <ul>
+            <li>Test 1</li>
+            <li>Test 2</li>
+            <li>Test 3</li>
+        </ul>
+        <a href="/products/create" class="buttonCreate">Create Product</a>
         </form>
     </center>
 </header>

@@ -55,19 +55,26 @@
         }
 
     </style>
+
 </head>
 <body>
 <header>
     <center>
-        <h1>Welcome to Chushka application</h1>
+        <h1>Create Product</h1>
         <hr>
-        <p>Check our products below!</p>
-        <ul>
-            <li>Test 1</li>
-            <li>Test 2</li>
-            <li>Test 3</li>
-        </ul>
-        <a href="/products/create" class="buttonCreate">Create Product</a>
+        <form action="/products/create" method="post">
+            <label for="nameInput">Name</label>
+            <input type="text" id="nameInput" name="name" placeholder="Product name...">
+
+            <label for="descrInput">Description</label>
+            <input type="text" id="descrInput" name="description" placeholder="Product Description...">
+
+            <label for="typeInput">Type:</label>
+            <select id="typeInput" name="type">
+               [TypeOptions]
+            </select>
+
+            <input type="submit" value="Submit">
         </form>
     </center>
 </header>
