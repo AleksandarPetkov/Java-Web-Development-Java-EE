@@ -7,28 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd565086-93ed-45cd-8b9d-b53e5e6f1686" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/75efb8c6-4800-4894-8548-7712877d1c28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/75efb8c6-4800-4894-8548-7712877d1c28.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/repository/ProductRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/repository/ProductRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/service/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/web/servlets/IndexServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/web/servlets/IndexServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/web/servlets/ProductCreateServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/web/servlets/ProductCreateServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/views/create-products.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/views/create-products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/views/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/chushkaapp-1.0-SNAPSHOT/WEB-INF/classes/app/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/chushkaapp-1.0-SNAPSHOT/WEB-INF/classes/app/service/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/chushkaapp-1.0-SNAPSHOT/WEB-INF/classes/app/service/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/chushkaapp-1.0-SNAPSHOT/WEB-INF/classes/app/service/ProductServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/chushkaapp-1.0-SNAPSHOT/WEB-INF/classes/app/web/servlets/IndexServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/chushkaapp-1.0-SNAPSHOT/WEB-INF/classes/app/web/servlets/IndexServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/chushkaapp-1.0-SNAPSHOT/WEB-INF/classes/app/web/servlets/ProductCreateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/chushkaapp-1.0-SNAPSHOT/WEB-INF/classes/app/web/servlets/ProductCreateServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/chushkaapp-1.0-SNAPSHOT/WEB-INF/classes/views/create-products.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/chushkaapp-1.0-SNAPSHOT/WEB-INF/classes/views/create-products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/chushkaapp-1.0-SNAPSHOT/WEB-INF/classes/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/chushkaapp-1.0-SNAPSHOT/WEB-INF/classes/views/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/service/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/service/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/service/ProductServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/web/servlets/IndexServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/web/servlets/IndexServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/web/servlets/ProductCreateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/web/servlets/ProductCreateServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/views/create-products.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/views/create-products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/views/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,7 +51,7 @@
     <session id="2095256954">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.143" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.238" value="1" />
@@ -263,7 +242,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549273186626" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549282242562" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -368,12 +347,12 @@
       <workItem from="1549005843245" duration="12184000" />
       <workItem from="1549131367588" duration="6094000" />
       <workItem from="1549182941281" duration="2901000" />
-      <workItem from="1549264344130" duration="6019000" />
+      <workItem from="1549264344130" duration="6989000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36504000" />
+    <option name="totallyTimeSpent" value="37474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -389,7 +368,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.19032258" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36935484" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36935484" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
