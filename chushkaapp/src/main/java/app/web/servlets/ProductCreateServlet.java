@@ -1,8 +1,10 @@
 package app.web.servlets;
 
 import app.domain.entities.Type;
+import app.domain.models.ProductModel;
 import app.service.ProductService;
 import app.util.HtmlReader;
+import app.util.ModelMapper;
 
 import javax.inject.Inject;
 import javax.servlet.ServletException;
@@ -20,10 +22,13 @@ public class ProductCreateServlet extends HttpServlet {
 
     private final HtmlReader htmlReader;
 
+    private final ModelMapper modelMapper;
+
     @Inject
-    public ProductCreateServlet(ProductService productService, HtmlReader htmlReader) {
+    public ProductCreateServlet(ProductService productService, HtmlReader htmlReader, ModelMapper modelMapper) {
         this.productService = productService;
         this.htmlReader = htmlReader;
+        this.modelMapper = modelMapper;
     }
 
     @Override
@@ -33,6 +38,17 @@ public class ProductCreateServlet extends HttpServlet {
         createHtmlContent = createHtmlContent
                 .replace(" [TypeOptions]", this.getTypeOptions());
         resp.getWriter().println(createHtmlContent);
+    }
+
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        ProductModel productModel = new ProductModel();
+        productModel.setName(req.getParameter("name"));
+        productModel.setDescription(req.getParameter("description"));
+        productModel.setType(req.getParameter("type"));
+
+        this.productService.saveProduct(productModel);
+        resp.sendRedirect("/");
     }
 
     private String getTypeOptions(){

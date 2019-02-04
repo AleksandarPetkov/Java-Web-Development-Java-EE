@@ -5,28 +5,12 @@
     <title>Chushka</title>
     <!--<link rel="stylesheet" href="./Style.css">-->
     <style type="text/css" media="screen">
-
         header{
             background-color: darkgray;
             font-family: 'Helvetica';
             padding: 80px 100px;
             margin-left: 100px;
             margin-right: 100px;
-        }
-
-        .buttonCreate {
-            background-color: cornflowerblue ; /* Green */
-            border: none;
-            color: white;
-            padding: 7px 16px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 13px;
-        }
-
-        .buttonCreate:hover{
-            background: lightskyblue ;
         }
 
         input[type=text], select {
@@ -54,6 +38,10 @@
             background-color: lightskyblue;
         }
 
+        .back{
+            color: cornflowerblue;
+            text-decoration: none;
+        }
     </style>
 
 </head>
@@ -71,11 +59,14 @@
 
             <label for="typeInput">Type:</label>
             <select id="typeInput" name="type">
+                <option value="" selected disabled hidden>Choose Type here..</option>
                [TypeOptions]
             </select>
 
             <input type="submit" value="Submit">
         </form>
+        <hr>
+        <a class="back" href="/">Back to Home page.</a>
     </center>
 </header>
 </body>

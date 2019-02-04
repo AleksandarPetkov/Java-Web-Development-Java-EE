@@ -37,6 +37,11 @@
         input[type=submit]:hover {
             background-color: lightskyblue;
         }
+
+        .back{
+            color: cornflowerblue;
+            text-decoration: none;
+        }
     </style>
 
 </head>
@@ -54,11 +59,14 @@
 
             <label for="typeInput">Type:</label>
             <select id="typeInput" name="type">
+                <option value="" selected disabled hidden>Choose Type here..</option>
                [TypeOptions]
             </select>
 
             <input type="submit" value="Submit">
         </form>
+        <hr>
+        <a class="back" href="/">Back to Home page.</a>
     </center>
 </header>
 </body>
