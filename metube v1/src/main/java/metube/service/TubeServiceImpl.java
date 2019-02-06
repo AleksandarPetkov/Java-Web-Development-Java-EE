@@ -38,4 +38,11 @@ public class TubeServiceImpl implements TubeService {
         }
         return tubeServiceModels;
     }
+
+    @Override
+    public TubeServiceModel findByName(String name) {
+        Tube tube = this.tubeRepository.findByName(name).orElse(null);
+
+        return this.modelMapper.map(tube, TubeServiceModel.class);
+    }
 }

@@ -8,4 +8,6 @@ public interface TubeService {
     void saveTube(TubeServiceModel tubeServiceModel);
 
     List<TubeServiceModel> findAllTubes();
+
+    TubeServiceModel findByName(String name);
 }
