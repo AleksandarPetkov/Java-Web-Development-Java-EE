@@ -86,28 +86,28 @@
             <div class="names-holder d-flex justify-content-between">
                 <div class="form-group w-25">
                     <h:outputLabel for="firstName" value="First Name"/>
-                    <h:inputText type="text" class="form-control" id="firstName" placeholder="First Name..."/>
+                    <h:inputText value="#{employeeRegisterBean.employeeRegisterBindingModel.firstName}" type="text" class="form-control" id="firstName" placeholder="First Name..."/>
                 </div>
                 <div class="form-group w-25">
                     <h:outputLabel for="lastName" value="Last name"/>
-                    <h:inputText type="text" class="form-control" id="lastName" placeholder="Last Name..."/>
+                    <h:inputText value="#{employeeRegisterBean.employeeRegisterBindingModel.lastName}" type="text" class="form-control" id="lastName" placeholder="Last Name..."/>
                 </div>
                 <div class="form-group w-25">
                     <h:outputLabel for="position" value="Position"/>
-                    <h:inputText type="text" class="form-control" id="position" placeholder="Position..."/>
+                    <h:inputText value="#{employeeRegisterBean.employeeRegisterBindingModel.position}" type="text" class="form-control" id="position" placeholder="Position..."/>
                 </div>
             </div>
             <div class="numbers-holders d-flex justify-content-between">
                 <div class="form-group w-25">
                     <h:outputLabel for="salary" value="Salary"/>
-                    <p:inputNumber type="number" class="form-control" id="salary" placeholder="Salary..."/>
+                    <p:inputNumber value="#{employeeRegisterBean.employeeRegisterBindingModel.salary}"  class="form-control" id="salary" placeholder="Salary..."/>
                 </div>
                 <div class="form-submit-holder d-flex justify-content-center w-25">
-                    <button class="btn btn-success mt-4 mb-3 mx-auto w-100">Register</button>
+                    <h:commandButton action="#{employeeRegisterBean.register}" class="btn btn-success mt-4 mb-3 mx-auto w-100" value="Register" />
                 </div>
                 <div class="form-group w-25">
                     <h:outputLabel for="age" value="Age"/>
-                    <p:inputNumber type="number" class="form-control" id="age" placeholder="Age..."/>
+                    <p:inputNumber value="#{employeeRegisterBean.employeeRegisterBindingModel.age}"  class="form-control" id="age" placeholder="Age..."/>
                 </div>
             </div>
         </h:form>
