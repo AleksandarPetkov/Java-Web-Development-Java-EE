@@ -23,12 +23,11 @@ public class EmployeeRegisterBean {
     private ModelMapper modelMapper;
 
     public EmployeeRegisterBean() {
-        this.employeeRegisterBindingModel = new EmployeeRegisterBindingModel();
     }
 
     @Inject
     public EmployeeRegisterBean(EmployeeService employeeService, ModelMapper modelMapper) {
-        this();
+        this.employeeRegisterBindingModel = new EmployeeRegisterBindingModel();
         this.employeeService = employeeService;
         this.modelMapper = modelMapper;
 

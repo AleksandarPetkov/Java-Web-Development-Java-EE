@@ -6,6 +6,8 @@ import regapp.domain.models.service.EmployeeServiceModel;
 import regapp.repository.EmployeeRepository;
 
 import javax.inject.Inject;
+import java.util.ArrayList;
+import java.util.List;
 
 public class EmployeeServiceImpl implements EmployeeService {
 
@@ -29,5 +31,16 @@ public class EmployeeServiceImpl implements EmployeeService {
         } catch (Exception e){
             return false;
         }
+    }
+
+    @Override
+    public List<EmployeeServiceModel> getAllEmployees() {
+        List<Employee> employeesEntities = this.employeeRepository.findAll();
+        List<EmployeeServiceModel> models = new ArrayList<>();
+
+        for (Employee entity : employeesEntities) {
+            models.add(this.modelMapper.map(entity, EmployeeServiceModel.class));
+        }
+        return models;
     }
 }

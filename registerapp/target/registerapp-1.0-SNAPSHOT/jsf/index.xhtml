@@ -35,50 +35,22 @@
             </tr>
             </thead>
             <tbody>
-            <tr class="row">
-                <th scope="row" class="col-md-1">1</th>
-                <td class="col-md-2">Mark</td>
-                <td class="col-md-2">Otto</td>
-                <td class="col-md-3">Computer Specialist</td>
-                <td class="col-md-1">$5500.00</td>
-                <td class="col-md-1">29</td>
-                <td class="col-md-2">
-                    <button class="btn btn-danger">Remove</button>
-                </td>
-            </tr>
-            <tr class="row">
-                <th scope="row" class="col-md-1">2</th>
-                <td class="col-md-2">Donald</td>
-                <td class="col-md-2">Fitzgerald</td>
-                <td class="col-md-3">Marketing Manager</td>
-                <td class="col-md-1">$2500.00</td>
-                <td class="col-md-1">34</td>
-                <td class="col-md-2">
-                    <button class="btn btn-danger">Remove</button>
-                </td>
-            </tr>
-            <tr class="row">
-                <th scope="row" class="col-md-1">1</th>
-                <td class="col-md-2">Casio</td>
-                <td class="col-md-2">Florenco</td>
-                <td class="col-md-3">Graphic Designer</td>
-                <td class="col-md-1">$4000.00</td>
-                <td class="col-md-1">27</td>
-                <td class="col-md-2">
-                    <button class="btn btn-danger">Remove</button>
-                </td>
-            </tr>
-            <tr class="row">
-                <th scope="row" class="col-md-1">1</th>
-                <td class="col-md-2">Isacc</td>
-                <td class="col-md-2">Netero</td>
-                <td class="col-md-3">Tech Support</td>
-                <td class="col-md-1">$4900.00</td>
-                <td class="col-md-1">30</td>
-                <td class="col-md-2">
-                    <button class="btn btn-danger">Remove</button>
-                </td>
-            </tr>
+
+            <p:repeat value="#{allEmployeesBean.employees}" var="employee" varStatus="myVarStatus" >
+                <tr class="row">
+                    <th scope="row" class="col-md-1">#{myVarStatus.index}</th>
+                    <td class="col-md-2">#{employee.firstName}</td>
+                    <td class="col-md-2">#{employee.lastName}</td>
+                    <td class="col-md-3">#{employee.position}</td>
+                    <td class="col-md-1">$#{employee.salary}</td>
+                    <td class="col-md-1">#{employee.age}</td>
+                    <td class="col-md-2">
+                        <h:form>
+                            <p:commandButton value="Remove" action="#{allEmployeesBean.deleteUser(employee.id)}" class="btn btn-danger"/>
+                        </h:form>
+                    </td>
+                </tr>
+            </p:repeat>
             </tbody>
         </table>
         <hr style="height: 2px;" class="bg-dark"/>
