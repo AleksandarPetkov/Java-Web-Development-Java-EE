@@ -38,7 +38,7 @@
 
             <p:repeat value="#{allEmployeesBean.employees}" var="employee" varStatus="myVarStatus" >
                 <tr class="row">
-                    <th scope="row" class="col-md-1">#{myVarStatus.index}</th>
+                    <th scope="row" class="col-md-1">#{myVarStatus.index + 1}</th>
                     <td class="col-md-2">#{employee.firstName}</td>
                     <td class="col-md-2">#{employee.lastName}</td>
                     <td class="col-md-3">#{employee.position}</td>
@@ -46,7 +46,7 @@
                     <td class="col-md-1">#{employee.age}</td>
                     <td class="col-md-2">
                         <h:form>
-                            <p:commandButton value="Remove" action="#{allEmployeesBean.deleteUser(employee.id)}" class="btn btn-danger"/>
+                            <p:commandButton value="Remove" action="#{employeeDeleteBean.deleteUser(employee.id)}" class="btn btn-danger"/>
                         </h:form>
                     </td>
                 </tr>
@@ -85,8 +85,8 @@
         </h:form>
         <hr style="height: 2px;" class="bg-dark"/>
         <div class="d-flex justify-content-between">
-            <h5 class="w-50">Total Money Needed: $16900.00</h5>
-            <h5 class="w-50 text-right">Average Salary: $4225.00</h5>
+            <h5 class="w-50">Total Money Needed: $#{allEmployeesBean.totalSalaryNeeded}</h5>
+            <h5 class="w-50 text-right">Average Salary: $#{allEmployeesBean.averageSalary}</h5>
         </div>
         <hr style="height: 2px;" class="bg-dark"/>
     </div>

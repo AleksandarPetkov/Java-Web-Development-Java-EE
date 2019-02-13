@@ -43,4 +43,9 @@ public class EmployeeServiceImpl implements EmployeeService {
         }
         return models;
     }
+
+    @Override
+    public void deleteEmployeeModelById(String id) {
+        this.employeeRepository.deleteUserById(id);
+    }
 }

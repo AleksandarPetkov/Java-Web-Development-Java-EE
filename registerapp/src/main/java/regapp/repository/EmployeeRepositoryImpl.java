@@ -48,8 +48,9 @@ public class EmployeeRepositoryImpl implements EmployeeRepository {
     public void deleteUserById(String id) {
         this.entityManager.getTransaction().begin();
         this.entityManager
-                .createQuery("DELETE FROM employees e WHERE e.id = :id", Employee.class)
-                .setParameter("id", id);
+                .createQuery("DELETE FROM employees e WHERE e.id = :id")
+                .setParameter("id", id)
+                .executeUpdate();
         this.entityManager.getTransaction().commit();
     }
 }

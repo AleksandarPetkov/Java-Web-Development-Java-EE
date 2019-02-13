@@ -7,20 +7,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ec57c3d-7a30-4675-b23d-0f744c6e9442" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../metube v1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../metube v1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d5cd92bc-9e60-4166-9f39-c0d3dbd15bf5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d5cd92bc-9e60-4166-9f39-c0d3dbd15bf5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registerapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/registerapp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/regapp/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/regapp/repository/EmployeeRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/regapp/repository/EmployeeRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/regapp/repository/EmployeeRepositoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/regapp/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/regapp/service/EmployeeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/regapp/service/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/regapp/service/EmployeeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/regapp/web/mbeans/EmployeeRegisterBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/regapp/web/mbeans/EmployeeRegisterBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/regapp/web/mbeans/AllEmployeesBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/regapp/web/mbeans/AllEmployeesBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/jsf/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsf/index.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/regapp/repository/EmployeeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/regapp/repository/EmployeeRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/regapp/repository/EmployeeRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/regapp/repository/EmployeeRepositoryImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/regapp/service/EmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/regapp/service/EmployeeService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/regapp/service/EmployeeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/regapp/service/EmployeeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/regapp/web/mbeans/AllEmployeesBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/regapp/web/mbeans/AllEmployeesBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/registerapp-1.0-SNAPSHOT/WEB-INF/classes/regapp/repository/EmployeeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/registerapp-1.0-SNAPSHOT/WEB-INF/classes/regapp/repository/EmployeeRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/registerapp-1.0-SNAPSHOT/WEB-INF/classes/regapp/repository/EmployeeRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/registerapp-1.0-SNAPSHOT/WEB-INF/classes/regapp/repository/EmployeeRepositoryImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/registerapp-1.0-SNAPSHOT/WEB-INF/classes/regapp/service/EmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/registerapp-1.0-SNAPSHOT/WEB-INF/classes/regapp/service/EmployeeService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/registerapp-1.0-SNAPSHOT/WEB-INF/classes/regapp/service/EmployeeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/registerapp-1.0-SNAPSHOT/WEB-INF/classes/regapp/service/EmployeeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/registerapp-1.0-SNAPSHOT/WEB-INF/classes/regapp/web/mbeans/AllEmployeesBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/registerapp-1.0-SNAPSHOT/WEB-INF/classes/regapp/web/mbeans/AllEmployeesBean.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/registerapp-1.0-SNAPSHOT/jsf/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/registerapp-1.0-SNAPSHOT/jsf/index.xhtml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -65,23 +67,24 @@
     <session id="-1410560353">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.120" value="1" />
+          <entry key="project.open.time.148" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1873" />
-          <entry key="xhtml" value="580" />
+          <entry key="java" value="2298" />
+          <entry key="xhtml" value="631" />
           <entry key="xml" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1873" />
-          <entry key="XHTML" value="580" />
+          <entry key="JAVA" value="2298" />
+          <entry key="XHTML" value="631" />
           <entry key="XML" value="31" />
         </counts>
       </usages-collector>
@@ -89,10 +92,10 @@
         <counts>
           <entry key="class" value="3" />
           <entry key="css" value="1" />
-          <entry key="employees" value="6" />
-          <entry key="java" value="37" />
+          <entry key="employees" value="8" />
+          <entry key="java" value="47" />
           <entry key="sql" value="1" />
-          <entry key="xhtml" value="3" />
+          <entry key="xhtml" value="4" />
           <entry key="xml" value="11" />
         </counts>
       </usages-collector>
@@ -100,10 +103,10 @@
         <counts>
           <entry key="CLASS" value="3" />
           <entry key="CSS" value="1" />
-          <entry key="Database Element" value="6" />
-          <entry key="JAVA" value="37" />
+          <entry key="Database Element" value="8" />
+          <entry key="JAVA" value="47" />
           <entry key="Scratch" value="1" />
-          <entry key="XHTML" value="3" />
+          <entry key="XHTML" value="4" />
           <entry key="XML" value="11" />
         </counts>
       </usages-collector>
@@ -111,11 +114,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/index.xhtml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/regapp/web/mbeans/AllEmployeesBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="52" column="23" lean-forward="true" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+            <state relative-caret-position="207">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,36 +129,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/regapp/web/mbeans/EmployeeRegisterBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-246">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/regapp/web/mbeans/AllEmployeesBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="33" column="29" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#998#999#0" expanded="true" />
-                <element signature="e#1030#1031#0" expanded="true" />
-                <element signature="e#1100#1101#0" expanded="true" />
-                <element signature="e#1142#1143#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/regapp/service/EmployeeServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="240">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -169,14 +147,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/regapp/repository/EmployeeRepositoryImpl.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/regapp/repository/GenericRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="48" column="52" lean-forward="true" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="80">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/index.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="88" column="55" selection-start-line="88" selection-start-column="55" selection-end-line="88" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -209,14 +193,15 @@
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/regapp/conf/ApplicationBeanConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/regapp/domain/entities/BaseEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/regapp/service/EmployeeService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/regapp/service/EmployeeServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/regapp/domain/models/views/AllEmployeeViewModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/regapp/web/mbeans/EmployeeRegisterBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/regapp/repository/EmployeeRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/regapp/service/EmployeeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/regapp/service/EmployeeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/regapp/web/mbeans/EmployeeDeleteBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/regapp/repository/EmployeeRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsf/index.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/regapp/web/mbeans/AllEmployeesBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/regapp/repository/EmployeeRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/regapp/repository/EmployeeRepositoryImpl.java" />
       </list>
     </option>
   </component>
@@ -294,15 +279,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="regapp" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="registerapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="registerapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="regapp" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -335,15 +311,15 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549906127291" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550064908921" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -450,18 +426,19 @@
       <option name="presentableId" value="Default" />
       <updated>1549817479028</updated>
       <workItem from="1549817484804" duration="21570000" />
-      <workItem from="1549971297077" duration="5406000" />
+      <workItem from="1549971297077" duration="8204000" />
+      <workItem from="1550042966655" duration="5586000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26976000" />
+    <option name="totallyTimeSpent" value="35360000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -472,8 +449,8 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36129034" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.33064517" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33064517" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -481,7 +458,7 @@
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.32903227" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32903227" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32903227" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
@@ -534,6 +511,18 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/regapp/web/mbeans/EmployeeDeleteBean.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -552,13 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
           <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/regapp/repository/GenericRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -622,31 +604,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/regapp/service/EmployeeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/regapp/domain/models/service/EmployeeServiceModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/regapp/domain/models/views/AllEmployeeViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d5cd92bc-9e60-4166-9f39-c0d3dbd15bf5/schema/register_db/table/employees">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -657,44 +618,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/index.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="52" column="23" lean-forward="true" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/regapp/web/mbeans/EmployeeRegisterBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-246">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/regapp/web/mbeans/AllEmployeesBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="33" column="29" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#998#999#0" expanded="true" />
-            <element signature="e#1030#1031#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
-          </folding>
+    <entry file="das://d5cd92bc-9e60-4166-9f39-c0d3dbd15bf5/schema/register_db/table/employees">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/regapp/service/EmployeeServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="187">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1520#1521#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/regapp/repository/EmployeeRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-112">
+          <caret line="39" column="44" lean-forward="true" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/regapp/web/mbeans/EmployeeDeleteBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/regapp/service/EmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/regapp/domain/models/views/AllEmployeeViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="e#367#368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsf/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="88" column="55" selection-start-line="88" selection-start-column="55" selection-end-line="88" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -705,10 +694,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/regapp/repository/EmployeeRepositoryImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/regapp/repository/GenericRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="48" column="52" lean-forward="true" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+        <state relative-caret-position="80">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/regapp/web/mbeans/EmployeeRegisterBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/regapp/web/mbeans/AllEmployeesBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
