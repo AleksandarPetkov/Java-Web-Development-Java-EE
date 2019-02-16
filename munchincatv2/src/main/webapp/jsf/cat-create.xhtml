@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html" xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<ui:composition template="templates/base-layout.xhtml">
+    <ui:define name="main-content">
+
+        <div class="jumbotron justify-content-center jumbotron-background">
+            <div class="row">
+                <div class="col col-md-12 d-flex justify-content-center">
+                    <h1>Create Cat!</h1>
+                </div>
+            </div>
+
+            <h:form class="form">
+                <div class="row">
+                    <div class="col-md-12  d-flex justify-content-center">
+                        <div class="form-group">
+                            <h:outputLabel for="name" value="Name"/>
+                            <h:inputText value="#{catCreateBean.createCatBindingModel.name}" type="text"
+                                         class="form-control" id="name" placeholder="Name..."/>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12  d-flex justify-content-center">
+                        <div class="form-group">
+                            <h:outputLabel for="breed" value="Breed"/>
+                            <h:inputText value="#{catCreateBean.createCatBindingModel.breed}" type="text"
+                                         class="form-control" id="breed" placeholder="Breed..."/>
+                        </div>
+                    </div>
+                </div>
+            </h:form>
+        </div>
+    </ui:define>
+</ui:composition>
+
+</html>
