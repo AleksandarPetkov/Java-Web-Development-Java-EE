@@ -1,26 +1,23 @@
-package app.domain.model;
+package app.domain.model.views;
 
 import java.math.BigDecimal;
-import java.time.LocalDate;
+import java.util.Date;
 
-public class CatServiceModel {
+public class AllCatsViewModel {
+
     private String name;
 
     private String breed;
 
     private String color;
 
-    private int age;
-
     private String genger;
 
     private BigDecimal price;
 
-    private LocalDate addedOn;
+    private Date addedOn;
 
-    private boolean hasPassport;
-
-    public CatServiceModel() {
+    public AllCatsViewModel() {
     }
 
     public String getName() {
@@ -47,13 +44,6 @@ public class CatServiceModel {
         this.color = color;
     }
 
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
 
     public String getGenger() {
         return genger;
@@ -71,19 +61,11 @@ public class CatServiceModel {
         this.price = price;
     }
 
-    public LocalDate getAddedOn() {
+    public Date getAddedOn() {
         return addedOn;
     }
 
-    public void setAddedOn(LocalDate addedOn) {
+    public void setAddedOn(Date addedOn) {
         this.addedOn = addedOn;
-    }
-
-    public boolean isHasPassport() {
-        return hasPassport;
-    }
-
-    public void setHasPassport(boolean hasPassport) {
-        this.hasPassport = hasPassport;
     }
 }

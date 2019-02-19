@@ -1,36 +1,37 @@
-package app.domain.entities;
-import javax.persistence.*;
+package app.domain.model.service;
+
 import java.math.BigDecimal;
 import java.util.Date;
 
-@Entity(name = "cats")
-public class Cat extends BaseEntity {
+public class CatServiceModel {
 
-    @Column(nullable = false)
+    private String id;
+
     private String name;
 
-    @Column(nullable = false)
     private String breed;
 
-    @Column
     private String color;
 
-    @Column(nullable = false)
     private int age;
 
-    @Column
     private String genger;
 
-    @Column(nullable = false)
     private BigDecimal price;
 
-    @Column(name = "added_on")
-    @Temporal(TemporalType.DATE)
     private Date addedOn;
 
     private boolean hasPassport;
 
-    public Cat() {
+    public CatServiceModel() {
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getName() {

@@ -1,0 +1,64 @@
+<main>
+    <div class="jumbotron justify-content-center jumbotron-background">
+        <div class="row">
+            <div class="col col-md-12 d-flex justify-content-center">
+                <h1>All Cats!</h1>
+            </div>
+        </div>
+        <hr class="hr-background"/>
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Breed</th>
+                <th scope="col">Color</th>
+                <th scope="col">Gender</th>
+                <th scope="col">Price</th>
+                <th scope="col">Added On</th>
+            </tr>
+            </thead>
+            <tbody id="j_id_p:tbody_element">
+            <tr>
+                <td>
+
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</main>
+
+<div class="jumbotron justify-content-center jumbotron-background">
+    <div class="row">
+        <div class="col col-md-12 d-flex justify-content-center">
+            <h1>All Cats!</h1>
+        </div>
+    </div>
+
+    <hr class="hr-background"/>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Breed</th>
+            <th scope="col">Color</th>
+            <th scope="col">Gender</th>
+            <th scope="col">Price</th>
+            <th scope="col">Added On</th>
+        </tr>
+        </thead>
+
+        <p:repeat value="#{catAllBean.catsViewModels}" var="cat" varStatus="myVarIndex">
+            <tr class="row">
+                <th scope="row" class="col-md-1">#{myVarIndex.index + 1}</th>
+                <td class="col-md-2">#{cat.name}</td>
+                <td class="col-md-2">#{cat.breed}</td>
+                <td class="col-md-3">#{cat.color}</td>
+                <td class="col-md-1">#{cat.genger}</td>
+                <td class="col-md-1">$#{cat.price}</td>
+                <td class="col-md-1">#{cat.addedOn}</td>
+
+            </tr>
+        </p:repeat>
+    </table>
+</div>

@@ -1,6 +1,6 @@
 package app.service;
 
-import app.domain.model.CatServiceModel;
+import app.domain.model.service.CatServiceModel;
 
 import java.util.List;
 

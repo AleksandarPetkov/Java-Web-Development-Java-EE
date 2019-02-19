@@ -1,7 +1,7 @@
 package app.domain.binding;
 
 import java.math.BigDecimal;
-import java.time.LocalDate;
+import java.util.Date;
 
 public class CreateCatBindingModel {
 
@@ -17,7 +17,7 @@ public class CreateCatBindingModel {
 
     private BigDecimal price;
 
-    private LocalDate addedOn;
+    private Date addedOn;
 
     private boolean hasPassport;
 
@@ -72,11 +72,11 @@ public class CreateCatBindingModel {
         this.price = price;
     }
 
-    public LocalDate getAddedOn() {
+    public Date getAddedOn() {
         return addedOn;
     }
 
-    public void setAddedOn(LocalDate addedOn) {
+    public void setAddedOn(Date addedOn) {
         this.addedOn = addedOn;
     }
 

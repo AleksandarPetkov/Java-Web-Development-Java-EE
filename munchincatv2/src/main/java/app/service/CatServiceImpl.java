@@ -1,7 +1,7 @@
 package app.service;
 
 import app.domain.entities.Cat;
-import app.domain.model.CatServiceModel;
+import app.domain.model.service.CatServiceModel;
 import app.repository.CatRepository;
 import org.modelmapper.ModelMapper;
 
