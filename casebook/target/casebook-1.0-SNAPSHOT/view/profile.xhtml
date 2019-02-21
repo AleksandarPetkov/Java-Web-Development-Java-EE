@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: HP
+  Date: 20.2.2019 г.
+  Time: 20:09
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html" xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:c="http://java.sun.com/jsp/jstl/core">
+
+
+<ui:composition template="templates/base-layout.xhtml">
+    <ui:define name="main-content">
+        <main>
+            <hr class="my-2"/>
+            <div class="container-fluid">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-6 d-flex flex-column">
+                        <c:choose>
+                            <c:when test="#{userProfileBean.viewModel.gender == 'Male'}">
+                                <h:graphicImage library="casebook-lib" name="png/male.png" class="mx-auto img-thumbnail" width="200" height="200"/>
+                            </c:when>
+                            <c:otherwise>
+                                <h:graphicImage library="casebook-lib" name="png/female.png" class="mx-auto img-thumbnail" width="200" height="200"/>
+                            </c:otherwise>
+                        </c:choose>
+                        <h4 class="mx-auto mt-3">#{userProfileBean.viewModel.username}</h4>
+                        <h5 class="mx-auto mt-3">#{userProfileBean.viewModel.gender}</h5>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-3"/>
+        </main>
+    </ui:define>
+</ui:composition>
+</html>

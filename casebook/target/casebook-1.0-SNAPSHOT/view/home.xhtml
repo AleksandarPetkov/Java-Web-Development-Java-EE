@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: HP
+  Date: 20.2.2019 г.
+  Time: 17:34
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html" xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<ui:composition template="templates/base-layout.xhtml">
+    <ui:define name="main-content">
+        <main>
+            <hr class="my-2"/>
+            <div class="text-center mt-3">
+                <h:link outcome="profile?id=#{session.getAttribute('userId')}" class="h4 text-info" value="Welcome #{session.getAttribute('username')}" />
+            </div>
+            <hr class="my-4"/>
+            <div class="container">
+                <!--<div class="row mb-4 d-flex justify-content-around">-->
+                    <!--<div class="col-md-2 d-flex flex-column text-center">-->
+                        <!--<img src="png/male.png" class="img-thumbnail" width="200" height="200">-->
+                        <!--<h5 class="text-center">Pesho</h5>-->
+                        <!--<a href="/friends/add?name=Pesho" class="btn btn-info">Add Friend</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-md-2 d-flex flex-column text-center">-->
+                        <!--<img src="png/female.png" class="img-thumbnail" width="200" height="200">-->
+                        <!--<h5 class="text-center">Tuhlichka</h5>-->
+                        <!--<a href="/friends/add?name=Tuhlichka" class="btn btn-info">Add Friend</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-md-2 d-flex flex-column text-center">-->
+                        <!--<img src="png/male.png" class="img-thumbnail" width="200" height="200">-->
+                        <!--<h5 class="text-center">Sasho</h5>-->
+                        <!--<a href="/friends/add?name=Sasho" class="btn btn-info">Add Friend</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-md-2 d-flex flex-column text-center">-->
+                        <!--<img src="png/female.png" class="img-thumbnail" width="200" height="200">-->
+                        <!--<h5 class="text-center">Keremidka</h5>-->
+                        <!--<a href="/friends/add?name=Keremidka" class="btn btn-info">Add Friend</a>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="row mb-4 d-flex justify-content-around">-->
+                    <!--<div class="col-md-2 d-flex flex-column text-center">-->
+                        <!--<img src="png/male.png" class="img-thumbnail" width="200" height="200">-->
+                        <!--<h5 class="text-center">Toncho</h5>-->
+                        <!--<a href="/friends/add?name=Toncho" class="btn btn-info">Add Friend</a>-->
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+            <hr class="my-3"/>
+        </main>
+    </ui:define>
+</ui:composition>
+
+</html>
