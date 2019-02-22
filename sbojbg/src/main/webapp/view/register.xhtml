@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<ui:composition template="templates/base-layout.xhtml">
+    <ui:define name="main-content">
+        <main>
+            <hr class="my-3"/>
+            <h1 class="text-center">Register</h1>
+            <hr class="hr-3"/>
+            <h:form class="mx-auto w-15">
+                <div class="form-group">
+                    <div class="label-holder d-flex justify-content-center">
+                        <h:outputLabel for="username" class="h3 mb-2" value="Username"/>
+                    </div>
+                    <h:inputText type="text" class="form-control" id="username"  value="#{userRegisterBean.registerBindingModel.username}"/>
+                </div>
+                <div class="form-group">
+                    <div class="label-holder d-flex justify-content-center">
+                        <h:outputLabel for="password" class="h3 mb-2" value="Password"/>
+                    </div>
+                    <h:inputSecret type="password" class="form-control" id="password"  value="#{userRegisterBean.registerBindingModel.password}"/>
+                </div>
+                <div class="form-group">
+                    <div class="label-holder d-flex justify-content-center">
+                        <h:outputLabel for="confirmPassword" class="h3 mb-2" value="Confirm Passowrd"/>
+                    </div>
+                    <h:inputSecret type="password" class="form-control" id="confirmPassword"  value="#{userRegisterBean.registerBindingModel.confPassword}"/>
+                </div>
+                <div class="form-group">
+                    <div class="label-holder d-flex justify-content-center">
+                        <h:outputLabel for="email" class="h3 mb-2" value="Email"/>
+                    </div>
+                    <h:inputText type="text" class="form-control" id="email"  value="#{userRegisterBean.registerBindingModel.email}"/>
+                </div>
+                <div class="button-holder d-flex justify-content-center">
+                    <h:commandButton type="submit" class="btn btn-info text-white" value="Register" action="#{userRegisterBean.register}"/>
+                </div>
+            </h:form>
+            <hr class="my-3"/>
+        </main>
+    </ui:define>
+</ui:composition>
+
+</html>
