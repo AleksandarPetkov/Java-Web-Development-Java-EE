@@ -30,4 +30,13 @@ public class UserServiceImpl implements UserService {
         }
         return true;
     }
+
+    @Override
+    public UserServiceModel loginUser(UserServiceModel userServiceModel) {
+        User user = this.userRepository.findUserByUsername(userServiceModel.getUsername());
+        if (user == null || !user.getPassword().equals(DigestUtils.sha256Hex(userServiceModel.getPassword()))) {
+            throw new IllegalArgumentException("Cant find User with username " + userServiceModel.getUsername());
+        }
+        return this.modelMapper.map(user, UserServiceModel.class);
+    }
 }

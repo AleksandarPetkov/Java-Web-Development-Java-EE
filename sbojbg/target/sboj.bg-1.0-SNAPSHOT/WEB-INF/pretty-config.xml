@@ -4,13 +4,23 @@
                       http://ocpsoft.org/xml/ns/prettyfaces/rewrite-config-prettyfaces.xsd">
 
     <url-mapping id="index">
-        <pattern value="" />
+        <pattern value="/" />
         <view-id value="/faces/view/index.xhtml" />
     </url-mapping>
 
     <url-mapping id="register">
         <pattern value="/register" />
         <view-id value="/faces/view/register.xhtml" />
+    </url-mapping>
+
+    <url-mapping id="login">
+        <pattern value="/login" />
+        <view-id value="/faces/view/login.xhtml" />
+    </url-mapping>
+
+    <url-mapping id="home">
+        <pattern value="/home" />
+        <view-id value="/faces/view/home.xhtml" />
     </url-mapping>
 
 </pretty-config>
