@@ -24,12 +24,12 @@
                     <c:choose>
                         <c:when test="#{session.getAttribute('username') != null}">
                             <li class="nav-item col-md-4">
-                                <h:link class="nav-link text-info active h5" value="Add Job" outcome="addjob"/>
+                                <h:link class="nav-link text-info active h5" value="Add Job" outcome="add-job"/>
 
                             </li>
                             <li class="nav-item col-md-4">
                                 <h:form>
-                                    <h:commandLink class="nav-link text-info active h5" value="Login" action="#{userLogoutBean.logout}"/>
+                                    <h:commandLink class="nav-link text-info active h5" value="Logout" action="#{userLogoutBean.logout}"/>
                                 </h:form>
                             </li>
                         </c:when>

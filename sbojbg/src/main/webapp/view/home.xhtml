@@ -15,7 +15,50 @@
 
 <ui:composition template="templates/base-layout.xhtml">
     <ui:define name="main-content">
-        <h1>HELLO FROM HOME</h1>
+        <main>
+            <hr class="my-3"/>
+            <div class="text-center mb-3">
+                <h4 class="text-info">Welcome, #{session.getAttribute("username")}</h4>
+            </div>
+            <hr class="my-3"/>
+            <!--<div class="container">-->
+                <!--<div class="row mb-4 d-flex justify-content-around">-->
+                    <!--<div class="col-md-3 d-flex flex-column text-center">-->
+                        <!--<img src="jpg/medicine.jpg" class="img-thumbnail" width="300" height="300">-->
+                        <!--<h5 class="text-center">Local Nurse</h5>-->
+                        <!--<a href="/jobs/details/?id=1" class="btn btn-info">Details</a>-->
+                        <!--<a href="/jobs/delete/?id=1" class="btn btn-danger">Delete</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-md-3 d-flex flex-column text-center">-->
+                        <!--<img src="jpg/car.jpg" class="img-thumbnail" width="300" height="300">-->
+                        <!--<h5 class="text-center">Car Mechanic</h5>-->
+                        <!--<a href="/jobs/details/?id=2" class="btn btn-info">Details</a>-->
+                        <!--<a href="/jobs/delete/?id=2" class="btn btn-danger">Delete</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-md-3 d-flex flex-column text-center">-->
+                        <!--<img src="jpg/security.jpg" class="img-thumbnail" width="300" height="300">-->
+                        <!--<h5 class="text-center">Security Guard</h5>-->
+                        <!--<a href="/jobs/details/?id=3" class="btn btn-info">Details</a>-->
+                        <!--<a href="/jobs/delete/?id=3" class="btn btn-danger">Delete</a>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="row mb-4 d-flex justify-content-around">-->
+                    <!--<div class="col-md-3 d-flex flex-column text-center">-->
+                        <!--<img src="jpg/food.jpg" class="img-thumbnail" width="300" height="300">-->
+                        <!--<h5 class="text-center">McDonalds Employee</h5>-->
+                        <!--<a href="/jobs/details/?id=4" class="btn btn-info">Details</a>-->
+                        <!--<a href="/jobs/delete/?id=4" class="btn btn-danger">Delete</a>-->
+                    <!--</div>-->
+                    <!--<div class="col-md-3 d-flex flex-column text-center">-->
+                        <!--<img src="jpg/domestic.jpg" class="img-thumbnail" width="300" height="300"/>-->
+                        <!--<h5 class="text-center">Washing Machine Expert</h5>-->
+                        <!--<a href="/jobs/details/?id=5" class="btn btn-info">Details</a>-->
+                        <!--<a href="/jobs/delete/?id=5" class="btn btn-danger">Delete</a>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <hr class="my-3"/>
+        </main>
     </ui:define>
 </ui:composition>
 

@@ -38,6 +38,7 @@ public class UserLoginBean {
                 .loginUser(this.modelMapper.map(this.userLoginBindingModel, UserServiceModel.class));
 
         HttpSession session = (HttpSession) FacesContext.getCurrentInstance().getExternalContext().getSession(false);
+        session.setAttribute("user-id", model.getId());
         session.setAttribute("username", model.getUsername());
 
         ExternalContext externalContext = FacesContext.getCurrentInstance().getExternalContext();

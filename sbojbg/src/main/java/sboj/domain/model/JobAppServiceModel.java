@@ -1,31 +1,28 @@
-package sboj.domain.entities;
+package sboj.domain.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
 import java.math.BigDecimal;
-//•	Has a Sector
-//        •	Has a Profession
-//        •	Has a Salary
-//        •	Has a Description
 
-@Entity
-public class JobApplication extends BaseEntity {
+public class JobAppServiceModel {
 
-    @Column(nullable = false)
+    private String id;
+
     private String sector;
 
-    @Column(nullable = false)
     private String profession;
 
-    @Column(nullable = false)
     private BigDecimal salary;
 
-    @Column()
     private String description;
 
-    public JobApplication() {
+    public JobAppServiceModel() {
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getSector() {
@@ -60,4 +57,3 @@ public class JobApplication extends BaseEntity {
         this.description = description;
     }
 }
-

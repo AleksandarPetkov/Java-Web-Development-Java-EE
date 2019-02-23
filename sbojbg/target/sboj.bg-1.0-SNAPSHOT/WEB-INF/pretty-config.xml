@@ -23,4 +23,9 @@
         <view-id value="/faces/view/home.xhtml" />
     </url-mapping>
 
+    <url-mapping id="add-job">
+        <pattern value="/add-job" />
+        <view-id value="/faces/view/add-job.xhtml" />
+    </url-mapping>
+
 </pretty-config>

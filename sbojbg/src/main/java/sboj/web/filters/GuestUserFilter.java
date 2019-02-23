@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebFilter({"/home"})
+@WebFilter({"/home", "/add-job"})
 public class GuestUserFilter implements Filter {
 
     @Override
